@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE80CC222621D82E000FC16A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE80CC212621D82E000FC16A /* AppDelegate.swift */; };
+		CE80CC242621D82E000FC16A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE80CC232621D82E000FC16A /* SceneDelegate.swift */; };
+		CE80CC262621D82E000FC16A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE80CC252621D82E000FC16A /* ViewController.swift */; };
+		CE80CC292621D82E000FC16A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE80CC272621D82E000FC16A /* Main.storyboard */; };
+		CE80CC2B2621D82F000FC16A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE80CC2A2621D82F000FC16A /* Assets.xcassets */; };
+		CE80CC2E2621D82F000FC16A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE80CC2C2621D82F000FC16A /* LaunchScreen.storyboard */; };
+		CE80CC392621D830000FC16A /* SKAZKITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE80CC382621D830000FC16A /* SKAZKITests.swift */; };
+		CE80CC442621D830000FC16A /* SKAZKIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE80CC432621D830000FC16A /* SKAZKIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE80CC352621D830000FC16A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE80CC162621D82E000FC16A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE80CC1D2621D82E000FC16A;
+			remoteInfo = SKAZKI;
+		};
+		CE80CC402621D830000FC16A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE80CC162621D82E000FC16A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE80CC1D2621D82E000FC16A;
+			remoteInfo = SKAZKI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE80CC1E2621D82E000FC16A /* SKAZKI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKAZKI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE80CC212621D82E000FC16A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE80CC232621D82E000FC16A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE80CC252621D82E000FC16A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE80CC282621D82E000FC16A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE80CC2A2621D82F000FC16A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE80CC2D2621D82F000FC16A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE80CC2F2621D82F000FC16A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE80CC342621D830000FC16A /* SKAZKITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKAZKITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE80CC382621D830000FC16A /* SKAZKITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKAZKITests.swift; sourceTree = "<group>"; };
+		CE80CC3A2621D830000FC16A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE80CC3F2621D830000FC16A /* SKAZKIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKAZKIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE80CC432621D830000FC16A /* SKAZKIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKAZKIUITests.swift; sourceTree = "<group>"; };
+		CE80CC452621D830000FC16A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE80CC632621D95A000FC16A /* teremok.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = teremok.mp3; sourceTree = "<group>"; };
+		CE80CC642621D95A000FC16A /* mashenka.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mashenka.mp3; sourceTree = "<group>"; };
+		CE80CC652621D95A000FC16A /* kurochka.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kurochka.mp3; sourceTree = "<group>"; };
+		CE80CC662621D95B000FC16A /* kolobok.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kolobok.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE80CC1B2621D82E000FC16A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE80CC312621D830000FC16A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE80CC3C2621D830000FC16A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE80CC152621D82E000FC16A = {
+			isa = PBXGroup;
+			children = (
+				CE80CC202621D82E000FC16A /* SKAZKI */,
+				CE80CC372621D830000FC16A /* SKAZKITests */,
+				CE80CC422621D830000FC16A /* SKAZKIUITests */,
+				CE80CC1F2621D82E000FC16A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE80CC1F2621D82E000FC16A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE80CC1E2621D82E000FC16A /* SKAZKI.app */,
+				CE80CC342621D830000FC16A /* SKAZKITests.xctest */,
+				CE80CC3F2621D830000FC16A /* SKAZKIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE80CC202621D82E000FC16A /* SKAZKI */ = {
+			isa = PBXGroup;
+			children = (
+				CE80CC622621D951000FC16A /* sound */,
+				CE80CC212621D82E000FC16A /* AppDelegate.swift */,
+				CE80CC232621D82E000FC16A /* SceneDelegate.swift */,
+				CE80CC252621D82E000FC16A /* ViewController.swift */,
+				CE80CC272621D82E000FC16A /* Main.storyboard */,
+				CE80CC2A2621D82F000FC16A /* Assets.xcassets */,
+				CE80CC2C2621D82F000FC16A /* LaunchScreen.storyboard */,
+				CE80CC2F2621D82F000FC16A /* Info.plist */,
+			);
+			path = SKAZKI;
+			sourceTree = "<group>";
+		};
+		CE80CC372621D830000FC16A /* SKAZKITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE80CC382621D830000FC16A /* SKAZKITests.swift */,
+				CE80CC3A2621D830000FC16A /* Info.plist */,
+			);
+			path = SKAZKITests;
+			sourceTree = "<group>";
+		};
+		CE80CC422621D830000FC16A /* SKAZKIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE80CC432621D830000FC16A /* SKAZKIUITests.swift */,
+				CE80CC452621D830000FC16A /* Info.plist */,
+			);
+			path = SKAZKIUITests;
+			sourceTree = "<group>";
+		};
+		CE80CC622621D951000FC16A /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				CE80CC662621D95B000FC16A /* kolobok.mp3 */,
+				CE80CC652621D95A000FC16A /* kurochka.mp3 */,
+				CE80CC642621D95A000FC16A /* mashenka.mp3 */,
+				CE80CC632621D95A000FC16A /* teremok.mp3 */,
+			);
+			path = sound;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE80CC1D2621D82E000FC16A /* SKAZKI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE80CC482621D830000FC16A /* Build configuration list for PBXNativeTarget "SKAZKI" */;
+			buildPhases = (
+				CE80CC1A2621D82E000FC16A /* Sources */,
+				CE80CC1B2621D82E000FC16A /* Frameworks */,
+				CE80CC1C2621D82E000FC16A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKAZKI;
+			productName = SKAZKI;
+			productReference = CE80CC1E2621D82E000FC16A /* SKAZKI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE80CC332621D830000FC16A /* SKAZKITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE80CC4B2621D830000FC16A /* Build configuration list for PBXNativeTarget "SKAZKITests" */;
+			buildPhases = (
+				CE80CC302621D830000FC16A /* Sources */,
+				CE80CC312621D830000FC16A /* Frameworks */,
+				CE80CC322621D830000FC16A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE80CC362621D830000FC16A /* PBXTargetDependency */,
+			);
+			name = SKAZKITests;
+			productName = SKAZKITests;
+			productReference = CE80CC342621D830000FC16A /* SKAZKITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE80CC3E2621D830000FC16A /* SKAZKIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE80CC4E2621D830000FC16A /* Build configuration list for PBXNativeTarget "SKAZKIUITests" */;
+			buildPhases = (
+				CE80CC3B2621D830000FC16A /* Sources */,
+				CE80CC3C2621D830000FC16A /* Frameworks */,
+				CE80CC3D2621D830000FC16A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE80CC412621D830000FC16A /* PBXTargetDependency */,
+			);
+			name = SKAZKIUITests;
+			productName = SKAZKIUITests;
+			productReference = CE80CC3F2621D830000FC16A /* SKAZKIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE80CC162621D82E000FC16A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					CE80CC1D2621D82E000FC16A = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					CE80CC332621D830000FC16A = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = CE80CC1D2621D82E000FC16A;
+					};
+					CE80CC3E2621D830000FC16A = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = CE80CC1D2621D82E000FC16A;
+					};
+				};
+			};
+			buildConfigurationList = CE80CC192621D82E000FC16A /* Build configuration list for PBXProject "SKAZKI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE80CC152621D82E000FC16A;
+			productRefGroup = CE80CC1F2621D82E000FC16A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE80CC1D2621D82E000FC16A /* SKAZKI */,
+				CE80CC332621D830000FC16A /* SKAZKITests */,
+				CE80CC3E2621D830000FC16A /* SKAZKIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE80CC1C2621D82E000FC16A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE80CC2E2621D82F000FC16A /* LaunchScreen.storyboard in Resources */,
+				CE80CC2B2621D82F000FC16A /* Assets.xcassets in Resources */,
+				CE80CC292621D82E000FC16A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE80CC322621D830000FC16A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE80CC3D2621D830000FC16A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE80CC1A2621D82E000FC16A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE80CC262621D82E000FC16A /* ViewController.swift in Sources */,
+				CE80CC222621D82E000FC16A /* AppDelegate.swift in Sources */,
+				CE80CC242621D82E000FC16A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE80CC302621D830000FC16A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE80CC392621D830000FC16A /* SKAZKITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE80CC3B2621D830000FC16A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE80CC442621D830000FC16A /* SKAZKIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE80CC362621D830000FC16A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE80CC1D2621D82E000FC16A /* SKAZKI */;
+			targetProxy = CE80CC352621D830000FC16A /* PBXContainerItemProxy */;
+		};
+		CE80CC412621D830000FC16A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE80CC1D2621D82E000FC16A /* SKAZKI */;
+			targetProxy = CE80CC402621D830000FC16A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE80CC272621D82E000FC16A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE80CC282621D82E000FC16A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE80CC2C2621D82F000FC16A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE80CC2D2621D82F000FC16A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE80CC462621D830000FC16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE80CC472621D830000FC16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE80CC492621D830000FC16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C59M3SUUDH;
+				INFOPLIST_FILE = SKAZKI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zvezda.SKAZKI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE80CC4A2621D830000FC16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C59M3SUUDH;
+				INFOPLIST_FILE = SKAZKI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zvezda.SKAZKI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE80CC4C2621D830000FC16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C59M3SUUDH;
+				INFOPLIST_FILE = SKAZKITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zvezda.SKAZKITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKAZKI.app/SKAZKI";
+			};
+			name = Debug;
+		};
+		CE80CC4D2621D830000FC16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C59M3SUUDH;
+				INFOPLIST_FILE = SKAZKITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zvezda.SKAZKITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKAZKI.app/SKAZKI";
+			};
+			name = Release;
+		};
+		CE80CC4F2621D830000FC16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C59M3SUUDH;
+				INFOPLIST_FILE = SKAZKIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zvezda.SKAZKIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SKAZKI;
+			};
+			name = Debug;
+		};
+		CE80CC502621D830000FC16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C59M3SUUDH;
+				INFOPLIST_FILE = SKAZKIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zvezda.SKAZKIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SKAZKI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE80CC192621D82E000FC16A /* Build configuration list for PBXProject "SKAZKI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE80CC462621D830000FC16A /* Debug */,
+				CE80CC472621D830000FC16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE80CC482621D830000FC16A /* Build configuration list for PBXNativeTarget "SKAZKI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE80CC492621D830000FC16A /* Debug */,
+				CE80CC4A2621D830000FC16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE80CC4B2621D830000FC16A /* Build configuration list for PBXNativeTarget "SKAZKITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE80CC4C2621D830000FC16A /* Debug */,
+				CE80CC4D2621D830000FC16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE80CC4E2621D830000FC16A /* Build configuration list for PBXNativeTarget "SKAZKIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE80CC4F2621D830000FC16A /* Debug */,
+				CE80CC502621D830000FC16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE80CC162621D82E000FC16A /* Project object */;
+}

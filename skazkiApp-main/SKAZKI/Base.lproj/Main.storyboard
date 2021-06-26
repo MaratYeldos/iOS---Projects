@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SKAZKI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="oblogka" translatesAutoresizingMaskIntoConstraints="NO" id="Vie-ss-mvb">
+                                <rect key="frame" x="0.0" y="-7" width="414" height="903"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="36" translatesAutoresizingMaskIntoConstraints="NO" id="mZm-Dz-JtT">
+                                <rect key="frame" x="20" y="254" width="380" height="376"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="A9H-XS-jDj">
+                                        <rect key="frame" x="0.0" y="0.0" width="380" height="170"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Tc-D5-9Ce">
+                                                <rect key="frame" x="0.0" y="0.0" width="180" height="170"/>
+                                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="180" id="fN3-Vb-M5T"/>
+                                                    <constraint firstAttribute="height" constant="170" id="mbh-n4-aVY"/>
+                                                </constraints>
+                                                <connections>
+                                                    <action selector="tapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8R7-sz-wzD"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ybW-hD-caS">
+                                                <rect key="frame" x="200" y="0.0" width="180" height="170"/>
+                                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="170" id="7gn-30-mi8"/>
+                                                    <constraint firstAttribute="width" constant="180" id="e6x-Gf-tno"/>
+                                                </constraints>
+                                                <connections>
+                                                    <action selector="tapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5jf-T6-O8h"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="U4m-Vx-hKg">
+                                        <rect key="frame" x="0.0" y="206" width="380" height="170"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kfB-s1-Elx">
+                                                <rect key="frame" x="0.0" y="0.0" width="180" height="170"/>
+                                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="180" id="9v7-w3-Hj5"/>
+                                                    <constraint firstAttribute="height" constant="170" id="at4-Hb-9Ht"/>
+                                                </constraints>
+                                                <connections>
+                                                    <action selector="tapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FqK-K6-9Yp"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="20o-eV-UOT">
+                                                <rect key="frame" x="200" y="0.0" width="180" height="170"/>
+                                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="180" id="Cr7-3k-HKO"/>
+                                                    <constraint firstAttribute="height" constant="170" id="NQq-46-Ut5"/>
+                                                </constraints>
+                                                <connections>
+                                                    <action selector="tapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kRe-bu-rgd"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mZm-Dz-JtT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="0pg-ce-ZaX"/>
+                            <constraint firstAttribute="bottom" secondItem="Vie-ss-mvb" secondAttribute="bottom" id="6Jg-J8-vMg"/>
+                            <constraint firstItem="Vie-ss-mvb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-51" id="NVs-TQ-VWn"/>
+                            <constraint firstItem="Vie-ss-mvb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Z7h-OL-tFp"/>
+                            <constraint firstItem="mZm-Dz-JtT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="210" id="jRS-Rz-R4N"/>
+                            <constraint firstItem="Vie-ss-mvb" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="qLh-Ds-ica"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="kolobokButton" destination="ybW-hD-caS" id="Te6-sd-8Yz"/>
+                        <outlet property="kurochkaButton" destination="kfB-s1-Elx" id="lDj-w2-4sv"/>
+                        <outlet property="mashaButton" destination="20o-eV-UOT" id="NqQ-bR-qmB"/>
+                        <outlet property="teremokButton" destination="9Tc-D5-9Ce" id="Sqj-KV-HVK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="76.339285714285708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="oblogka" width="1080" height="1920"/>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
