@@ -1,4 +1,5 @@
 Calculator App
 
-https://user-images.githubusercontent.com/81078334/123517487-0f624f80-d6c3-11eb-8a89-07e4359c698b.mov
+![calc](https://user-images.githubusercontent.com/81078334/123517664-1fc6fa00-d6c4-11eb-9bf3-082aacf7d4d8.gif)
+
 
